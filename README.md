@@ -33,7 +33,7 @@ pip install pyinstaller
 ```
 
 ```
-pyinstaller main.py -w --myicon = myicon.ico
+pyinstaller.exe --onefile --icon=myicon.ico main.py
 ```
 
 Then your exe should be in the dist folder
